@@ -56,13 +56,13 @@ clearage.doSomethingElse()
 
 The  `showClearageHistory` method allows you to display the history of the extension on a web console.
 
-**Example**
+**∙ Example**
 ```typescript
 // from the web console
 clx.showClearageHistory()
 ```
 
-**Screenshot**
+**∙ Screenshot**
 
 ![Show the entire history screenshot](https://github.com/ARKHN3B/Clearage/blob/master/images/screenshots/showClearageHistory.png)
 
@@ -72,13 +72,13 @@ clx.showClearageHistory()
 
 The  `removeElementFromClearageHistory` method allows you to remove an element (i.e. local storage) from the history by its key.
 
-**Example**
+**∙ Example**
 ```typescript
 // from the web console
 clx.removeElementFromClearageHistory(key: number)
 ```
 
-**Screenshot**
+**∙ Screenshot**
 
 ![Remove an element from history screenshot](https://github.com/ARKHN3B/Clearage/blob/master/images/screenshots/removeElementFromClearageHistory.png)
 
@@ -88,13 +88,13 @@ clx.removeElementFromClearageHistory(key: number)
 
 The  `cleanClearageHistory` method allows you to completely clean the history. 
 
-**Example**
+**∙ Example**
 ```typescript
 // from the web console
 clx.cleanClearageHistory()
 ```
 
-**Screenshot**
+**∙ Screenshot**
 
 ![Clean all the history screenshot](https://github.com/ARKHN3B/Clearage/blob/master/images/screenshots/cleanClearageHistory.png)
 
@@ -104,14 +104,14 @@ clx.cleanClearageHistory()
 
 The  `resetLocalStorageWith` method allows you to re-inject an element (i.e. local storage) by its key, from the history to the local storage of the active page. 
 
-**Example**
+**∙ Example**
 ```typescript
 // from the web console
 clx.resetLocalStorageWith(key: number)
 ```
 > If a local storage is already present, it would be saved in the Clearage history and then replaced by the new one.
 
-**Screenshot**
+**∙ Screenshot**
 
 ![Reset a specific local storage from history screenshot](https://github.com/ARKHN3B/Clearage/blob/master/images/screenshots/resetLocalStorageWith.png)
 
@@ -121,14 +121,14 @@ clx.resetLocalStorageWith(key: number)
 
 The  `resetLocalStorageWithLastStorageSaved` method allows you to re-inject the last recorded element (i.e. local storage) from the history to the local storage of the active page.
 
-**Example**
+**∙ Example**
 ```typescript
 // from the web console
 clx.resetLocalStorageWithLastStorageSaved()
 ```
 > If a local storage is already present, it would be saved in the Clearage history and then replaced by the new one.
 
-**Screenshot**
+**∙ Screenshot**
 
 ![Reset the last local storage saved in history screenshot](https://github.com/ARKHN3B/Clearage/blob/master/images/screenshots/resetLocalStorageWithLastStorageSaved.png)
 
@@ -139,13 +139,13 @@ clx.resetLocalStorageWithLastStorageSaved()
 
 The  `copyLocalStorageWithKey` method allows you to copy an element (i.e. local storage) of the history by its key. 
 
-**Example**
+**∙ Example**
 ```typescript
 // from the web console
 clx.copyLocalStorageWithKey(key: number)
 ```
 
-**Screenshot**
+**∙ Screenshot**
 
 ![Copy a specific local storage from history screenshot](https://github.com/ARKHN3B/Clearage/blob/master/images/screenshots/copyLocalStorageWithKey.png)
 
@@ -155,13 +155,13 @@ clx.copyLocalStorageWithKey(key: number)
 
 The  `copyLocalStorageWithLastStorageSaved` method allows you to copy the last recorded element (i.e. local storage) of the history by its key.
 
-**Example**
+**∙ Example**
 ```typescript
 // from the web console
 clx.copyLocalStorageWithLastStorageSaved()
 ```
 
-**Screenshot**
+**∙ Screenshot**
 
 ![Copy the last local storage saved in history](https://github.com/ARKHN3B/Clearage/blob/master/images/screenshots/copyLocalStorageWithLastStorageSaved.png)
 
@@ -178,7 +178,7 @@ This method can:
 	
 - inject a new local storage in the right format JSON provides as an argument
 	
-**Example**
+**∙ Example**
 ```typescript
 // from the web console
 
@@ -199,7 +199,7 @@ clx.setLocalStorage({
 ```
 > If a local storage is already present, it would be saved in the Clearage history and then replaced by the new one.
 
-**Screenshot**
+**∙ Screenshot**
 
 ![Set manually your local storage screenshot](https://github.com/ARKHN3B/Clearage/blob/master/images/screenshots/setLocalStorage.png)
 
