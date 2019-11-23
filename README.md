@@ -94,10 +94,6 @@ The  `cleanClearageHistory` method allows you to completely clean the history.
 clx.cleanClearageHistory()
 ```
 
-**∙ Screenshot**
-
-![Clean all the history screenshot](https://github.com/ARKHN3B/Clearage/blob/master/images/screenshots/cleanClearageHistory.png)
-
 ***
 
 #### 🔦 Reset a specific local storage from history
@@ -127,10 +123,6 @@ The  `resetLocalStorageWithLastStorageSaved` method allows you to re-inject the 
 clx.resetLocalStorageWithLastStorageSaved()
 ```
 > If a local storage is already present, it would be saved in the Clearage history and then replaced by the new one.
-
-**∙ Screenshot**
-
-![Reset the last local storage saved in history screenshot](https://github.com/ARKHN3B/Clearage/blob/master/images/screenshots/resetLocalStorageWithLastStorageSaved.png)
 
 ***
 
