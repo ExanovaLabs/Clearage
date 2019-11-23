@@ -63,6 +63,7 @@ clx.showClearageHistory()
 ```
 
 **Screenshot**
+
 ![Show the entire history screenshot](https://github.com/ARKHN3B/Clearage/blob/master/images/screenshots/showClearageHistory.png)
 
 ***
@@ -78,6 +79,7 @@ clx.removeElementFromClearageHistory(key: number)
 ```
 
 **Screenshot**
+
 ![Remove an element from history screenshot](https://github.com/ARKHN3B/Clearage/blob/master/images/screenshots/removeElementFromClearageHistory.png)
 
 ***
@@ -93,6 +95,7 @@ clx.cleanClearageHistory()
 ```
 
 **Screenshot**
+
 ![Clean all the history screenshot](https://github.com/ARKHN3B/Clearage/blob/master/images/screenshots/cleanClearageHistory.png)
 
 ***
@@ -109,6 +112,7 @@ clx.resetLocalStorageWith(key: number)
 > If a local storage is already present, it would be saved in the Clearage history and then replaced by the new one.
 
 **Screenshot**
+
 ![Reset a specific local storage from history screenshot](https://github.com/ARKHN3B/Clearage/blob/master/images/screenshots/resetLocalStorageWith.png)
 
 ***
@@ -125,6 +129,7 @@ clx.resetLocalStorageWithLastStorageSaved()
 > If a local storage is already present, it would be saved in the Clearage history and then replaced by the new one.
 
 **Screenshot**
+
 ![Reset the last local storage saved in history screenshot](https://github.com/ARKHN3B/Clearage/blob/master/images/screenshots/resetLocalStorageWithLastStorageSaved.png)
 
 ***
@@ -141,6 +146,7 @@ clx.copyLocalStorageWithKey(key: number)
 ```
 
 **Screenshot**
+
 ![Copy a specific local storage from history screenshot](https://github.com/ARKHN3B/Clearage/blob/master/images/screenshots/copyLocalStorageWithKey.png)
 
 ***
@@ -156,6 +162,7 @@ clx.copyLocalStorageWithLastStorageSaved()
 ```
 
 **Screenshot**
+
 ![Copy the last local storage saved in history](https://github.com/ARKHN3B/Clearage/blob/master/images/screenshots/copyLocalStorageWithLastStorageSaved.png)
 
 ***
@@ -193,6 +200,7 @@ clx.setLocalStorage({
 > If a local storage is already present, it would be saved in the Clearage history and then replaced by the new one.
 
 **Screenshot**
+
 ![Set manually your local storage screenshot](https://github.com/ARKHN3B/Clearage/blob/master/images/screenshots/setLocalStorage.png)
 
 ***
