@@ -190,5 +190,5 @@ clx.setLocalStorage({
 
 ***
 
-### Thanks for using this extension
+#### Thanks for using this extension
 ##### If you like it, shares with your friends or with your collaborators ! 😉👍
