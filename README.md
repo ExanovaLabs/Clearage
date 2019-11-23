@@ -132,7 +132,7 @@ clx.copyLocalStorageWithKey(key: number)
 
 The  `copyLocalStorageWithLastStorageSaved` method allows you to copy the last recorded element (i.e. local storage) of the history by its key.
 
-**∙ Example**
+**Example**
 ```typescript
 // from the web console
 clx.copyLocalStorageWithLastStorageSaved()
