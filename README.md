@@ -28,7 +28,6 @@ This history is based on the design principle: [**K.I.S.S.**](https://en.wikiped
 
 We have opted for simplicity by avoiding any unnecessary complexity. So the Clearage history is a simple array of objects. **Nothing more, nothing less.** Each object always has *three* properties: *key, localStorageSaved and date*.
 
-***
 | Properties | What they do |
 |--|--|
 |**key**|The *key* is a specific and distinct property between each object. It allows the use of certain actions on the Clearage history through this element   
