@@ -54,7 +54,7 @@ clearage.doSomethingElse()
 
 #### 👾 Show the entire history
 
-The  `showClearageHistory` method allows you to display the history of the extension on a web console.
+The  `showClearageHistory` method allows you to display the history of the extension on web console.
 
 **∙ Example**
 ```typescript
@@ -136,10 +136,6 @@ The  `copyLocalStorageWithKey` method allows you to copy an element (i.e. local 
 // from the web console
 clx.copyLocalStorageWithKey(key: number)
 ```
-
-**∙ Screenshot**
-
-![Copy a specific local storage from history screenshot](https://github.com/ARKHN3B/Clearage/blob/master/images/screenshots/copyLocalStorageWithKey.png)
 
 ***
 
