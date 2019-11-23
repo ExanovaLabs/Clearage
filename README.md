@@ -1,6 +1,6 @@
 ![Clearage Exanove Labs](https://github.com/ARKHN3B/Clearage/blob/master/images/promotional/banner.png)
 
-# Clearage documentation
+***
 
 Hi! This is a documentation on how to use this extension.
 
