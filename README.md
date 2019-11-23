@@ -174,7 +174,7 @@ clx.setLocalStorage()
 clx.setLocalStorage({"bundle-urls":"{\"frameworks.css\":\"https://github.githubassets.com/assets/frameworks-481a47a96965f6706fb41bae0d14b09a.css\",\"site.css\":\"https://github.githubassets.com/assets/site-d3c48f1b58ea95d9efb184fd4592b411.css\",\"github.css\":\"https://github.githubassets.com/assets/github-0003cf1223f3f480cee651b538355dcb.css\"}"})
 
 // Injection of a local storage in the right JSON format
-clsx.setLocalStorage({  
+clx.setLocalStorage({  
   "bundle-urls":{  
 	  "frameworks.css":"https://github.githubassets.com/assets/frameworks-481a47a96965f6706fb41bae0d14b09a.css",  
 	  "site.css":"https://github.githubassets.com/assets/site-d3c48f1b58ea95d9efb184fd4592b411.css",  
