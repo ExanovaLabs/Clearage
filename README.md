@@ -49,7 +49,8 @@ clx.doSomething()
 clearage.doSomethingElse()
 ```
 
-> **Warning!** Each of these methods operates only in the context in which they are used. To make it simple, a method cannot be used on a chrome tab other than its own.
+#### ⚠️ **Warning!** 
+Each of these methods operates only in the context in which they are used. To make it simple, a method cannot be used on a chrome tab other than its own.
 ***
 
 #### 👾 Show the entire history
