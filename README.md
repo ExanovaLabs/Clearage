@@ -172,10 +172,6 @@ clx.setLocalStorage({
 ```
 > If a local storage is already present, it would be saved in the Clearage history and then replaced by the new one.
 
-**Screenshot**
-
-![Set manually your local storage screenshot](https://github.com/ARKHN3B/Clearage/blob/master/images/screenshots/setLocalStorage.png)
-
 ***
 
 #### Thanks for using this extension
