@@ -79,10 +79,6 @@ The  `removeElementFromClearageHistory` method allows you to remove an element (
 clx.removeElementFromClearageHistory(key: number)
 ```
 
-**∙ Screenshot**
-
-![Remove an element from history screenshot](https://github.com/ARKHN3B/Clearage/blob/master/images/screenshots/removeElementFromClearageHistory.png)
-
 ***
 
 #### 🧨 Clean all the history
