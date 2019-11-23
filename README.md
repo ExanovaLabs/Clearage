@@ -32,12 +32,12 @@ We have opted for simplicity by avoiding any unnecessary complexity. So the Clea
 |**key**|The *key* is a specific and distinct property between each object. It allows the use of certain actions on the Clearage history through this element   
 |**localStorageSaved**|The *localStorageSaved* property contains the cleaned and saved "local storage" in the history.
 |**date**|The *date* property represents the date and time, specific to your region, of the recording of the local storage within the Clearage history.|
-***
 > Note: key and date properties are automatically generated 
+***
 
 ### Use the console's methods
 
-#### 👽How to use
+#### 👽 How to use
 
 To use the methods through your web console, you must keep in mind that it is necessary to use the keywords `clearage` or `clx` .
 
@@ -51,7 +51,7 @@ clearage.doSomethingElse()
 > **Warning!** Each of these methods operates only in the context in which they are used. To make it simple, a method cannot be used on a chrome tab other than its own.
 ***
 
-#### 👾Show the entire history
+#### 👾 Show the entire history
 
 The  `showClearageHistory` method allows you to display the history of the extension on a web console.
 
@@ -65,7 +65,7 @@ clx.showClearageHistory()
 
 ***
 
-#### 🚀Remove an element from history
+#### 🚀 Remove an element from history
 
 The  `removeElementFromClearageHistory` method allows you to remove an element (i.e. local storage) from the history by its key.
 
@@ -79,7 +79,7 @@ clx.removeElementFromClearageHistory(key: number)
 
 ***
 
-#### 🧨Clean all the history
+#### 🧨 Clean all the history
 
 The  `cleanClearageHistory` method allows you to completely clean the history. 
 
@@ -93,7 +93,7 @@ clx.cleanClearageHistory()
 
 ***
 
-#### 🔦Reset a specific local storage from history
+#### 🔦 Reset a specific local storage from history
 
 The  `resetLocalStorageWith` method allows you to re-inject an element (i.e. local storage) by its key, from the history to the local storage of the active page. 
 
@@ -108,7 +108,7 @@ clx.resetLocalStorageWith(key: number)
 
 ***
 
-#### 🛠Reset the last local storage saved in history
+#### 🛠 Reset the last local storage saved in history
 
 The  `resetLocalStorageWithLastStorageSaved` method allows you to re-inject the last recorded element (i.e. local storage) from the history to the local storage of the active page.
 
@@ -124,7 +124,7 @@ clx.resetLocalStorageWithLastStorageSaved()
 ***
 
 
-#### 📡Copy a specific local storage from history
+#### 📡 Copy a specific local storage from history
 
 The  `copyLocalStorageWithKey` method allows you to copy an element (i.e. local storage) of the history by its key. 
 
@@ -138,7 +138,7 @@ clx.copyLocalStorageWithKey(key: number)
 
 ***
 
-#### 🔌Copy the last local storage saved in history
+#### 🔌 Copy the last local storage saved in history
 
 The  `copyLocalStorageWithLastStorageSaved` method allows you to copy the last recorded element (i.e. local storage) of the history by its key.
 
@@ -152,7 +152,7 @@ clx.copyLocalStorageWithLastStorageSaved()
 
 ***
 
-#### 🔋Set manually your local storage
+#### 🔋 Set manually your local storage
 
 The  `setLocalStorage` method allows you to inject your own states from a previously copied or received local storage.
 
@@ -174,7 +174,7 @@ clx.setLocalStorage()
 clx.setLocalStorage({"bundle-urls":"{\"frameworks.css\":\"https://github.githubassets.com/assets/frameworks-481a47a96965f6706fb41bae0d14b09a.css\",\"site.css\":\"https://github.githubassets.com/assets/site-d3c48f1b58ea95d9efb184fd4592b411.css\",\"github.css\":\"https://github.githubassets.com/assets/github-0003cf1223f3f480cee651b538355dcb.css\"}"})
 
 // Injection of a local storage in the right JSON format
-clsx.setLocalStorage({  
+clx.setLocalStorage({  
   "bundle-urls":{  
 	  "frameworks.css":"https://github.githubassets.com/assets/frameworks-481a47a96965f6706fb41bae0d14b09a.css",  
 	  "site.css":"https://github.githubassets.com/assets/site-d3c48f1b58ea95d9efb184fd4592b411.css",  
